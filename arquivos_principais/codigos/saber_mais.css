@@ -1,0 +1,1062 @@
+body {
+	font-family: 'Quicksand', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.cabecalho{
+    left: 15%;
+    right: 15%;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8px;
+}
+
+header {
+    box-shadow: 0px 4px 20px rgba(59, 11, 125, 0.25);    
+    background: white;
+	position:absolute;
+    display:flex;
+    flex-direction: row;
+
+    width: 100%;
+    height: 85px;
+}
+
+.infos-header {
+    width: 72.08%;
+    height: 100%;
+    padding: 0 20px 0 20px;
+}
+
+.barra-roxa {
+	position:absolute;
+    display:flex;
+    flex-direction: row;
+	width: 100%;
+	height: 2px;
+	left: 0px;
+	top: 85px;
+
+	background: #7115F2;
+	transform: matrix(1, 0, 0, -1, 0, 0);
+}
+ 
+.logo-razor {
+	position: absolute;
+    display:flex;
+    flex-direction: row;
+	top: -30px;
+	width: 205px;
+
+}	
+
+#logo {
+    transition: 1s all;
+    cursor: pointer;
+}
+
+#logo {
+    transform: width(1.2);
+}
+
+header #especialista{
+    color: black;
+	position:absolute;
+	width: 257px;
+	height: 30px;
+	top: 25px;
+    right: 150px;
+    
+	font-weight: 600;
+	font-size: 1.5em;
+	line-height: 30px;    
+    text-decoration: none;
+    transition: 0.7s;
+}
+
+header #especialista:hover{
+    cursor: pointer; 
+    transform: scale(1.04);
+    text-decoration:underline;
+    text-decoration-color: #3B0B7D;
+    color:#3B0B7D
+}
+
+header #especialista:active{
+    cursor: pointer; 
+    transform: scale(1.02);
+    text-decoration:underline;
+    text-decoration-color:#7115F2;
+    color:#7115F2;
+
+}
+
+p {
+	position: absolute;
+	width: 257px;
+	height: 30px;
+	left: 1100px;
+	top: 26px;
+
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 30px;
+}
+
+/*WorkStation PRO*/
+
+h1 {
+	position: absolute;
+	width: 1038px;
+	height: 143px;
+	left: 201px;
+	top: 158px;
+
+	font-weight: 700;
+	font-size: 4em;
+	line-height: 80px;
+	text-align: center;
+	color: white;
+}
+
+h3 {
+	position: absolute;
+	width: 690px;
+	height: 91px;
+	left: 375px;
+	top: 154px;
+
+	font-weight: 600;
+	font-size: 3.5em;
+	line-height: 80px;
+	text-align: center;
+}
+
+/*Talent(imagem)*/
+.talent {
+	position: absolute;
+	width: 41%;
+	height: auto;
+	left: 400px;
+	top: 250px;
+}
+
+.gabinete-frente {
+	box-sizing: border-box;
+	position: absolute;
+	width: 30.5%;
+	height: auto;
+	left: 480px;
+	top: 438px;
+
+	border: 3px solid rgba(59, 11, 125, 0.3);
+	box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 30px;
+}
+
+.preco {	
+	position: absolute;
+	width: 35.4%;
+	height: auto;
+	left: 7.5%;
+	top: 980px;
+
+	font-weight: 600;
+	font-size: 4em;
+	line-height: 75px;
+	color: black;
+}
+
+.juros-desconto {
+	position: absolute;
+	width: 35.4%;
+	height: auto;
+	left: 13.8%;
+	top: 1050px;
+
+	font-weight: 400;
+	font-size: 1.38em;
+	line-height: 30px;
+}
+
+.processamento {
+	position: absolute;
+	width: 15.5%;
+	height: auto;
+	left: 13.5%;
+	top: 1150px;
+
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 40px;
+}
+
+.processador {
+	position: absolute;
+	width: 5.2%;
+	height: auto;
+	left: 211px;
+	top: 1260px;
+	border-radius: 15px;
+}
+
+.placa-video {
+	position: absolute;
+	width: 5.2%;
+	height: auto;
+	left: 211px;
+	top: 1380px;
+	border-radius: 15px;
+}
+
+.ram {
+	position: absolute;
+	width: 5.2%;
+	height: auto;
+	left: 738px;
+	top: 1150px;
+	border-radius: 15px;
+}
+
+.Ssd {
+	position: absolute;
+	width: 5.2%;
+	height: 75px;
+	left: 738px;
+	top: 1260px;
+	border-radius: 15px;
+}
+
+.Hdd {
+	position: absolute;
+	width: 5.2%;
+	height: 75px;
+	left: 738px;
+	top: 1380px;
+	border-radius: 15px;
+	}
+
+.a {
+	position: absolute;
+	width: 26%;
+	height: 35px;
+	left: 335px;
+	top: 1260px;
+
+	font-weight: 400;
+	font-size: 1.8em;
+	line-height: 35px;
+}
+
+.b {
+	position: absolute;
+	width: 26%;
+	height: 35px;
+	left: 335px;
+	top: 1295px;
+
+	font-weight: 400;
+	font-size: 1.8em;
+	line-height: 35px;
+
+    color: #817589;
+}
+
+.c {
+	position: absolute;
+	width: 26%;
+	height: 35px;
+	left: 335px;
+	top: 1385px;
+
+	font-weight: 400;
+	font-size: 1.8em;
+	line-height: 35px;
+}
+
+.d {
+	position: absolute;
+	width: 26%;
+	height: 35px;
+	left: 335px;
+	top: 1420px;
+
+	font-weight: 400;
+	font-size: 1.8em;
+	line-height: 35px;
+
+    color: #817589;
+}
+
+.e {
+	position: absolute;
+	width: 26%;
+	height: 35px;
+	left: 864px;
+	top: 1155px;
+
+	font-weight: 400;
+	font-size: 1.8em;
+	line-height: 35px;
+}
+
+.f {
+	position: absolute;
+	width: 374px;
+	height: 35px;
+	left: 864px;
+	top: 1190px;
+
+	font-weight: 400;
+	font-size: 1.8em;
+	line-height: 35px;
+
+    color: #817589;
+}
+
+.g {
+	position: absolute;
+	width: 26%;
+	height: 35px;
+	left: 864px;
+	top: 1255px;
+
+	font-weight: 400;
+	font-size: 1.8em;
+	line-height: 35px;
+}
+
+.h {
+	position: absolute;
+	width: 26%;
+	height: 35px;
+	left: 864px;
+	top: 1290px;
+
+	font-weight: 400;
+	font-size: 1.8em;
+	line-height: 35px;
+
+    color: #817589;
+}
+
+.i {
+	position: absolute;
+	width: 26%;
+	height: 35px;
+	left: 864px;
+	top: 1380px;
+
+	font-weight: 400;
+	font-size: 1.8em;
+	line-height: 35px;
+}
+
+.task-garantia {
+	position: absolute;
+	width: 18.75%;
+	height: 30px;
+	left: 291px;
+	top: 1600px;
+
+	font-weight: 400;
+	font-size: 1.5em;
+	line-height: 30px;
+}
+
+.task-atendimento {
+	position: absolute;
+	width: 19.86%;
+	height: 30px;
+	left: 671px;
+	top: 1600px;
+
+	font-weight: 400;
+	font-size: 1.5em;
+	line-height: 30px;
+}
+
+.task-frete {
+	position: absolute;
+	width: 10.2%;
+	height: 30px;
+	left: 1068px;
+	top: 1600px;
+
+	font-weight: 400;
+	font-size: 1.5em;
+	line-height: 30px;
+}
+
+.separar {
+	position: absolute;
+	width: 50.4%;
+	height: 2px;
+	left: 378px;
+	top: 1670px;
+
+	background: #7115F2;
+	transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+h2 {
+	position: absolute;
+	width: 33.05%;
+	height: 45px;
+	left: 513px;
+	top: 1760px;
+
+	font-weight: 600;
+	font-size: 2.5em;
+	line-height: 45px;
+}
+
+select {
+	background: #7115F2;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 15px;
+	color: white;
+    padding: 20px;
+
+	font-weight: 500;
+	font-size: 2em;
+	line-height: 40px
+}
+
+select option { 
+    background: #d3b2e9;
+    color: #201a27;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 10px;
+    font-size: -0.2em;
+}
+
+select:hover {
+	cursor: pointer;
+    transition: 1s all;
+    background: #3B0B7D;
+}
+
+.Memória-RAM {
+	position: absolute;
+	width: 211px;
+	height: 40px;
+	left: 201px;
+	top: 1910px;
+
+	font-weight: 500;
+	font-size: 2em;
+	line-height: 40px;
+}
+
+.opcao-Memória-RAM {
+	position: absolute;
+	width: 660px;
+	height: 90px;
+	left: 580px;
+	top: 1890px;
+    padding: 8px;
+}
+
+.Armazenamento-SSD {
+	position: absolute;
+	width: 321px;
+	height: 40px;
+	left: 201px;
+	top: 2180px;
+
+	font-weight: 500;
+	font-size: 2em;
+	line-height: 40px;
+}
+
+.opcao-Armazenamento-SSD {
+	position: absolute;
+	width: 660px;
+	height: 90px;
+	left: 580px;
+	top: 2154px;
+}
+
+.Armazenamento-HDD {
+	position: absolute;
+	width: 330px;
+	height: 40px;
+	left: 200px;
+	top: 2450px;
+
+	font-weight: 500;
+	font-size: 2em;
+	line-height: 40px;
+}
+
+.opcao-Armazenamento-HDD {
+	position: absolute;
+	width: 660px;
+	height: 90px;
+	left: 580px;
+	top: 2424px;
+}
+
+.Sistema-operacional {
+	position: absolute;
+	width: 308px;
+	height: 40px;
+	left: 200px;
+	top: 2720px;
+
+	font-weight: 500;
+	font-size: 2em;
+	line-height: 40px;
+}
+
+.opcao-Sistema-operacional {
+	position: absolute;
+	width: 660px;
+	height: 90px;
+	left: 580px;
+	top: 2694px;
+}
+
+.Monitor{
+	position: absolute;
+	width: 116px;
+	height: 40px;
+	left: 200px;
+	top: 2990px;
+
+	font-weight: 500;
+	font-size: 2em;
+	line-height: 40px;
+}
+
+.opcao-Monitor {
+	position: absolute;
+	width: 660px;
+	height: 90px;
+	left: 580px;
+	top: 2964px;
+}
+
+.Teclado-Mouse {
+	position: absolute;
+	width: 252px;
+	height: 40px;
+	left: 200px;
+	top: 3260px;
+
+	font-weight: 500;
+	font-size: 2em;
+	line-height: 40px;
+}
+
+.opcao-Teclado-Mouse {
+	position: absolute;
+	width: 660px;
+	height: 90px;
+	left: 580px;
+	top: 3234px;
+}
+
+/* A partir daqui é formulario*/
+
+.formulario {
+	position: absolute;
+	width: 1040px;
+	height: 400px;
+	left: -5px;
+	top: 1000px;
+}
+
+.nome-sobrenome {
+	position: absolute;
+	width: 375px;
+	height: 40px;
+	left: 200px;
+	top: 2512px;
+
+	font-weight: 500;
+	font-size: 2em;
+	line-height: 40px;
+}
+
+#nome-sobrenome {
+	position: absolute;
+	width: 1040px;
+	height: 65px;
+	left: 200px;
+	top: 2557px;
+
+	background: #D9D9D9;
+	box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 25px;
+	font-size: 1.8em;
+	padding: 0 20px;
+	}
+
+.email {
+	position: absolute;
+	width: 281px;
+	height: 40px;
+	left: 200px;
+	top: 2657px;
+
+	font-weight: 500;
+	font-size: 2em;
+	line-height: 40px;
+}
+
+#email {
+	position: absolute;
+	width: 1040px;
+	height: 65px;
+	left: 200px;
+	top: 2702px;
+
+	background: #D9D9D9;
+	box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 25px;
+	font-size: 1.8em;
+	padding: 0 20px;
+}
+
+.telefone {
+	position: absolute;
+	width: 427px;
+	height: 40px;
+	left: 200px;
+	top: 2802px;
+
+	font-weight: 500;
+	font-size: 2em;
+	line-height: 40px;
+}
+
+#telefone {
+	position: absolute;
+	width: 1040px;
+	height: 65px;
+	left: 200px;
+	top: 2847px;
+
+	background: #D9D9D9;
+	box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 25px;
+	font-size: 1.8em;
+	padding: 0 20px;
+}
+
+.lembrando {
+	position: absolute;
+	width: 983px;
+	height: 30px;
+	left: 250px;
+	top:2950px;
+
+	font-weight: 500;
+	font-size: 1.5em;
+	line-height: 30px;
+}
+
+.gostou {
+	position: absolute;
+	width: 226px;
+	height: 30px;
+	left: 615px;
+	top: 3060px;
+
+	font-weight: 500;
+	font-size: 1.5em;
+	line-height: 30px;
+}
+
+.proposta {
+	position: absolute;
+	width: 40%;
+	height: 67px;
+	left: 527px;
+	top: 3100px;
+
+	border: none;
+	background: #7115F2;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 25px;
+	font-weight: 600;
+	font-size: 2em;
+	line-height: 38px;
+	color: white;
+	text-transform: uppercase;
+    transition: 1s all;
+}
+
+.proposta:hover {
+	cursor: pointer;
+    transform: scale(1.1);
+    background: #3B0B7D;
+}
+
+/*rodapé*/
+.rodape {
+	position: absolute;
+	width: 100%;
+	height: auto;
+	left: 0px;
+	top: 4200px;
+}
+
+.fundo-rodape {
+	position: absolute;
+	width: 100%;
+	height: auto;
+	left: 0px;
+	top: 4270px;
+}
+
+.logo-branco {
+	position: absolute;
+	width: 34%;
+	height: auto;
+	left: 0px;
+	top: 4200px;
+}
+
+.atendimento {
+	position: absolute;
+	width: 34%;
+	height: auto;
+	left: 60%;
+	top: 4350px;
+
+	font-weight: bold;
+	font-size: 1.5em;
+	line-height: 22px;
+	text-align: right;
+	color: white;
+}
+
+.horario {
+	position: absolute;
+	width: 427px;
+	height: 23px;
+	left: 66%;
+	top: 4380px;
+
+	font-weight: 600;
+	font-size: 1.3em;
+	line-height: 22px;
+	text-align: right;
+	color: white;
+}
+
+.colaboradores {
+	position: absolute;
+	width: 30%;
+	height: auto;
+	left: 40%;
+	top: 4500px;
+
+	font-weight: 700;
+	font-size: 2.5em;
+	line-height: 30px;
+	color: white;
+}
+
+/*fotos*/
+.amanda {
+	position: absolute;
+	width: 90px;
+	height: 90px;
+	left: 21%;
+	top: 4570px;
+	transform: matrix(-1, 0, 0, 1, 0, 0);
+	border-radius: 100%;
+}
+
+#amanda {
+	position: absolute;
+	width: 14.5%;
+	height: auto;
+	left: 18%;
+	top: 4690px;
+
+	font-weight: 500;
+	font-size: 1.2em;
+	line-height: 25px;
+	color: white;
+}
+
+#email-amanda {
+	position: absolute;
+	width: 18.4%;
+	height: auto;
+	left: 14%;
+	top: 4725px;
+
+	font-weight: 300;
+	font-size: 1em;
+	line-height: 20px;
+	text-align: center;
+	letter-spacing: -0.02em;
+	color: white;
+}
+
+.tel-amanda {
+	position: absolute;
+	width: 10.4%;
+	height: auto;
+	left: 18.5%;
+	top: 4750px;
+
+	font-weight: 300;
+	font-size: 1em;
+	line-height: 20px;
+	text-align: center;
+	letter-spacing: -0.02em;
+	color: white;
+}
+
+.gabriela {
+	position: absolute;
+	width: 90px;
+	height: 90px;
+	left: 45%;
+	top: 4570px;
+	transform: matrix(-1, 0, 0, 1, 0, 0);
+	border-radius: 100%;
+}
+
+#gabriela {
+	position: absolute;
+	width: 14.5%;
+	height: auto;
+	left: 44%;
+	top: 4690px;
+
+	font-weight: 500;
+	font-size: 1.2em;
+	line-height: 25px;
+	color: white;
+}
+
+#email-gabriela {
+	position: absolute;
+	width: 18.4%;
+	height: auto;
+	left: 39%;
+	top: 4725px;
+
+	font-weight: 300;
+	font-size: 1em;
+	line-height: 20px;
+	text-align: center;
+	letter-spacing: -0.02em;
+	color: white;
+}
+
+.tel-gabriela {
+	position: absolute;
+	width: 10.4%;
+	height: auto;
+	left: 43%;
+	top: 4750px;
+
+	font-weight: 300;
+	font-size: 1em;
+	line-height: 20px;
+	text-align: center;
+	letter-spacing: -0.02em;
+	color: white;
+}
+
+.natalia {
+	position: absolute;
+	width: 90px;
+	height: 90px;
+	left: 33%;
+	top: 4819px;
+	transform: matrix(-1, 0, 0, 1, 0, 0);
+	border-radius: 100%;
+}
+
+#natalia {
+	position: absolute;
+	width: 14.5%;
+	height: auto;
+	left: 30%;
+	top: 4920px;
+
+	font-weight: 500;
+	font-size: 1.2em;
+	line-height: 25px;
+	color: white;
+}
+
+#email-natalia {
+	position: absolute;
+	width: 18.4%;
+	height: auto;
+	left: 26.4%;
+	top: 4955px;
+
+	font-weight: 300;
+	font-size: 1em;
+	line-height: 20px;
+	text-align: center;
+	letter-spacing: -0.02em;
+	color: white;
+}
+
+.tel-natalia {
+	position: absolute;
+	width: 10.4%;
+	height: auto;
+	left: 30.8%;
+	top: 4980px;
+
+	font-weight: 300;
+	font-size: 1em;
+	line-height: 20px;
+	text-align: center;
+	letter-spacing: -0.02em;
+	color: white;
+}
+
+.rui {
+	position: absolute;
+	width: 90px;
+	height: 90px;
+	left: 70%;
+	top: 4570px;
+	transform: matrix(-1, 0, 0, 1, 0, 0);
+	border-radius: 100%;
+}
+
+#rui {
+	position: absolute;
+	width: 14.5%;
+	height: auto;
+	left: 69.2%;
+	top: 4690px;
+
+	font-weight: 500;
+	font-size: 1.2em;
+	line-height: 25px;
+	color: white;
+}
+
+#email-rui {
+	position: absolute;
+	width: 18.4%;
+	height: auto;
+	left: 64%;
+	top: 4725px;
+
+	font-weight: 300;
+	font-size: 1em;
+	line-height: 20px;
+	text-align: center;
+	letter-spacing: -0.02em;
+	color: white;
+}
+
+.tf {
+	position: absolute;
+	width: 90px;
+	height: 90px;
+	left: 58%;
+	top: 4819px;
+	transform: matrix(-1, 0, 0, 1, 0, 0);
+	border-radius: 100%;
+}
+
+#tf {
+	position: absolute;
+	width: 14.5%;
+	height: auto;
+	left: 57.4%;
+	top: 4920px;
+
+	font-weight: 500;
+	font-size: 1.2em;
+	line-height: 25px;
+	color: white;
+}
+
+#email-tf {
+	position: absolute;
+	width: 18.4%;
+	height: auto;
+	left: 51.5%;
+	top: 4955px;
+
+	font-weight: 300;
+	font-size: 1em;
+	line-height: 20px;
+	text-align: center;
+	letter-spacing: -0.02em;
+	color: white;
+}
+
+.mail {
+	text-decoration: none;
+	transition: 0.5s all;
+}
+
+.mail:hover {
+	text-decoration: underline;
+	text-decoration-color: #7115F2;
+	transform: scale(1.05);
+}
+
+.coord {
+	position: absolute;
+	width: 30%;
+	height: auto;
+	left: 15.3%;
+	top: 5145px;
+
+	font-weight: 600;
+	font-size: 1.2em;
+	line-height: 22px;
+	color: white;
+}
+
+.local {
+	position: absolute;
+	width: 59%;
+	height: auto;
+	left: 27%;
+	top: 5147px;
+
+	font-weight: 400;
+	font-size: 1.1em;
+	line-height: 20px;
+	color: white;
+}
+
+.acesso-whats {
+    background-color: white;
+    position: fixed;
+    width: 68px;
+    height: 68px;
+    right: 50px;
+    top: 508px;
+    border-radius: 60px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+
+}
+
+.whatsApp {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    right: 57px;
+    top: 516px;
+    border-radius: 4px;
+    border-color: white;
+    
+}
