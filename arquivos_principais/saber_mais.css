@@ -1,6 +1,6 @@
 body {
 	font-family: 'Quicksand', sans-serif;
-	scroll-behavior:smooth;
+    scroll-behavior: smooth;
 }
 
 .cabecalho{
@@ -53,7 +53,16 @@ header {
 
 }	
 
-header a{
+#logo {
+    transition: 1s all;
+    cursor: pointer;
+}
+
+#logo {
+    transform: width(1.2);
+}
+
+header #especialista{
     color: black;
 	position:absolute;
 	width: 257px;
@@ -68,7 +77,7 @@ header a{
     transition: 0.7s;
 }
 
-header a:hover{
+header #especialista:hover{
     cursor: pointer; 
     transform: scale(1.04);
     text-decoration:underline;
@@ -76,7 +85,7 @@ header a:hover{
     color:#3B0B7D
 }
 
-header a:active{
+header #especialista:active{
     cursor: pointer; 
     transform: scale(1.02);
     text-decoration:underline;
@@ -85,395 +94,482 @@ header a:active{
 
 }
 
-.imagem-fundo {
-	position:relative;
-	width: 100%;
-	left: 0px;
-	top: 87px;
-}
-
 p {
 	position: absolute;
 	width: 257px;
 	height: 30px;
-	left: 985px;
+	left: 1100px;
 	top: 26px;
 
 	font-weight: 600;
-	font-size: 1.5em;
+	font-size: 24px;
 	line-height: 30px;
 }
 
+/*WorkStation PRO*/
+
 h1 {
 	position: absolute;
-	width: 72.08%;
+	width: 1038px;
 	height: 143px;
 	left: 201px;
 	top: 158px;
 
 	font-weight: 700;
-	font-size: 4.5em;
-
+	font-size: 4em;
+	line-height: 80px;
 	text-align: center;
 	color: white;
 }
 
-.promessa {
-	position: absolute;
-	width: 72.08%;
-	height: 20%;
-	left: 201px;
-	top: 365px;
-
-	font-weight: 400;
-	font-size: 2.1em;
-	line-height: 40px;
-	display: flex;
-	align-items: center;
-	text-align: center;
-	color: white;
-}
-
-.fundo-redondo {
-	position: absolute;
-	width: 40%;
-	height: 85%;
-	left: 30%;
-	top: 561px;
-	background: linear-gradient(180deg, rgba(230, 214, 240, 0.5) 0%, #7115F2 100%);
-	border-radius: 600px;
-	mix-blend-mode: normal;
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.monitor {	
-	position: absolute;
-	width: 37%px;
-	height: 80%;
-	left: 30.4%;
-	top: 561px;
-}
-
-/*Confira o mais novo modelo razor*/
-h2 {
-	position: absolute;
-	width: 806px;
-	height: 60px;
-	left: 317px;
-	top: 1186px;
-
-	font-weight: 600;
-	font-size: 3em;
-	line-height: 60px;
-	text-align: center;
-}
-
-/*WorkStation PRO*/
 h3 {
 	position: absolute;
-	width: 300px;
-	height: 45px;
-	left: 572px;
-	top: 1304px;
+	width: 690px;
+	height: 91px;
+	left: 375px;
+	top: 154px;
 
 	font-weight: 600;
-	font-size: 2.3em;
-	line-height: 45px;
+	font-size: 3.5em;
+	line-height: 80px;
 	text-align: center;
 }
 
 /*Talent(imagem)*/
 .talent {
 	position: absolute;
-	width: 374px;
+	width: 41%;
 	height: auto;
-	left: 533px;
-	top: 1369px;
-	text-align: center;
+	left: 400px;
+	top: 250px;
 }
 
-.quadrado-gabinete {
+.gabinete-frente {
 	box-sizing: border-box;
 	position: absolute;
-	width: 440px;
-	height: 475px;
-	left: 201px;
-	top: 1530px;
+	width: 30.5%;
+	height: auto;
+	left: 480px;
+	top: 438px;
 
 	border: 3px solid rgba(59, 11, 125, 0.3);
 	box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 	border-radius: 30px;
-	}
-
-.gabinete-medido {
-	position: absolute;
-	width: 400px;
-	height: 445px;
-	left: 225px;
-	top: 1550px;
 }
 
 .preco {	
 	position: absolute;
-	width: 510px;
-	height: 75px;
-	left: 640px;
-	top: 1505px;
+	width: 35.4%;
+	height: auto;
+	left: 7.5%;
+	top: 980px;
 
 	font-weight: 600;
 	font-size: 4em;
 	line-height: 75px;
+	color: black;
 }
 
 .juros-desconto {
 	position: absolute;
-	width: 510px;
-	height: 30px;
-	left: 730px;
-	top: 1581px;
+	width: 35.4%;
+	height: auto;
+	left: 13.8%;
+	top: 1050px;
 
 	font-weight: 400;
-	font-size: 1.5em;
+	font-size: 1.38em;
 	line-height: 30px;
 }
 
-.natal {
+.processamento {
 	position: absolute;
-	width: 510px;
-	height: 70px;
-	left: 730px;
-	top: 1639px;
+	width: 15.5%;
+	height: auto;
+	left: 13.5%;
+	top: 1150px;
 
 	font-weight: 500;
-	font-size: 1.8em;
-	line-height: 35px;
+	font-size: 32px;
+	line-height: 40px;
 }
 
 .processador {
 	position: absolute;
-	width: 75px;
-	height: 75px;
-	left: 745px;
-	top: 1740px;
+	width: 5.2%;
+	height: auto;
+	left: 211px;
+	top: 1260px;
+	border-radius: 15px;
 }
 
 .placa-video {
 	position: absolute;
-	width: 75px;
-	height: 75px;
-	left: 745px;
-	top: 1841px;
+	width: 5.2%;
+	height: auto;
+	left: 211px;
+	top: 1380px;
+	border-radius: 15px;
 }
 
 .ram {
 	position: absolute;
-	width: 75px;
-	height: 75px;
-	left: 745px;
-	top: 1942px;
+	width: 5.2%;
+	height: auto;
+	left: 738px;
+	top: 1150px;
+	border-radius: 15px;
 }
 
 .Ssd {
 	position: absolute;
-	width: 75px;
+	width: 5.2%;
 	height: 75px;
-	left: 745px;
-	top: 2043px;
-
+	left: 738px;
+	top: 1260px;
+	border-radius: 15px;
 }
 
 .Hdd {
 	position: absolute;
-	width: 75px;
+	width: 5.2%;
 	height: 75px;
-	left: 745px;
-	top: 2144px;
-}
+	left: 738px;
+	top: 1380px;
+	border-radius: 15px;
+	}
 
 .a {
 	position: absolute;
-	width: 374px;
+	width: 26%;
 	height: 35px;
-	left: 866px;
-	top: 1745px;
+	left: 335px;
+	top: 1260px;
 
 	font-weight: 400;
-	font-size: 2em;
+	font-size: 1.8em;
 	line-height: 35px;
 }
 
 .b {
-    color: #817589;
 	position: absolute;
-	width: 374px;
+	width: 26%;
 	height: 35px;
-	left: 866px;
-	top: 1780px;
+	left: 335px;
+	top: 1295px;
 
 	font-weight: 400;
-	font-size: 2em;
+	font-size: 1.8em;
 	line-height: 35px;
+
+    color: #817589;
 }
 
 .c {
 	position: absolute;
-	width: 374px;
+	width: 26%;
 	height: 35px;
-	left: 866px;
-	top: 1845px;
+	left: 335px;
+	top: 1385px;
 
 	font-weight: 400;
-	font-size: 2em;
+	font-size: 1.8em;
 	line-height: 35px;
 }
 
 .d {
-    color: #817589;
 	position: absolute;
-	width: 374px;
+	width: 26%;
 	height: 35px;
-	left: 866px;
-	top: 1880px;
+	left: 335px;
+	top: 1420px;
 
 	font-weight: 400;
-	font-size: 2em;
+	font-size: 1.8em;
 	line-height: 35px;
-	}
+
+    color: #817589;
+}
 
 .e {
 	position: absolute;
-	width: 374px;
+	width: 26%;
 	height: 35px;
-	left: 866px;
-	top: 1945px;
+	left: 864px;
+	top: 1155px;
 
 	font-weight: 400;
-	font-size: 2em;
+	font-size: 1.8em;
 	line-height: 35px;
 }
 
 .f {
-    color: #817589;
 	position: absolute;
 	width: 374px;
 	height: 35px;
-	left: 866px;
-	top: 1980px;
+	left: 864px;
+	top: 1190px;
 
 	font-weight: 400;
-	font-size: 2em;
+	font-size: 1.8em;
 	line-height: 35px;
+
+    color: #817589;
 }
 
 .g {
 	position: absolute;
-	width: 374px;
+	width: 26%;
 	height: 35px;
-	left: 866px;
-	top: 2045px;
+	left: 864px;
+	top: 1255px;
 
 	font-weight: 400;
-	font-size: 2em;
+	font-size: 1.8em;
 	line-height: 35px;
 }
 
 .h {
-    color: #817589;
 	position: absolute;
-	width: 374px;
+	width: 26%;
 	height: 35px;
-	left: 866px;
-	top: 2080px;
+	left: 864px;
+	top: 1290px;
 
 	font-weight: 400;
-	font-size: 2em;
+	font-size: 1.8em;
 	line-height: 35px;
+
+    color: #817589;
 }
 
 .i {
 	position: absolute;
-	width: 374px;
+	width: 26%;
 	height: 35px;
-	left: 866px;
-	top: 2163px;
+	left: 864px;
+	top: 1380px;
 
 	font-weight: 400;
-	font-size: 2em;
+	font-size: 1.8em;
 	line-height: 35px;
 }
 
-	.interessado {
+.task-garantia {
 	position: absolute;
-	width: 243px;
+	width: 18.75%;
 	height: 30px;
-	left: 290px;
-	top: 2092px;
+	left: 291px;
+	top: 1600px;
 
-	font-weight: 500;
+	font-weight: 400;
 	font-size: 1.5em;
 	line-height: 30px;
-	text-align: center;
 }
 
-button {
+.task-atendimento {
 	position: absolute;
-	width: 386px;
-	height: 85px;
-	left: 213px;
-	top: 2140px;
+	width: 19.86%;
+	height: 30px;
+	left: 671px;
+	top: 1600px;
 
-	font-weight: 600;
-	font-size: 2.5em;
-	line-height: 45px;
-
-    font-family: 'Quicksand', sans-serif;
-	border: none;
-	background: #7115F2;
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-	border-radius: 30px;
-	color: white;
-    text-transform: uppercase;
-    transition: 1s ; 
-
+	font-weight: 400;
+	font-size: 1.5em;
+	line-height: 30px;
 }
 
-button:hover {
+.task-frete {
+	position: absolute;
+	width: 10.2%;
+	height: 30px;
+	left: 1068px;
+	top: 1600px;
 
-    background: #3B0B7D;
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
-	cursor: pointer;
-
-    transform:scale(1.08)
-}
-
-.saber-mais a {
-	text-decoration: none;
-	color: white;
+	font-weight: 400;
+	font-size: 1.5em;
+	line-height: 30px;
 }
 
 .separar {
 	position: absolute;
-	width: 726px;
+	width: 50.4%;
 	height: 2px;
-	left: 357px;
-	top: 2308px;
+	left: 378px;
+	top: 1670px;
 
 	background: #7115F2;
 	transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
-/* A partir daqui é formulario*/
-.titulo-formulario {
+h2 {
 	position: absolute;
-	width: 715px;
+	width: 33.05%;
 	height: 45px;
-	left: 363px;
-	top: 2392px;
+	left: 513px;
+	top: 1760px;
 
 	font-weight: 600;
-	font-size: 2.2em;
+	font-size: 2.5em;
 	line-height: 45px;
-	text-align: center;
+}
+
+select {
+	background: #7115F2;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 15px;
+	color: white;
+    padding: 20px;
+
+	font-weight: 500;
+	font-size: 2em;
+	line-height: 40px
+}
+
+select option { 
+    background: #d3b2e9;
+    color: #201a27;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 10px;
+    font-size: -0.2em;
+}
+
+select:hover {
+	cursor: pointer;
+    transition: 1s all;
+    background: #3B0B7D;
+}
+
+.Memória-RAM {
+	position: absolute;
+	width: 211px;
+	height: 40px;
+	left: 201px;
+	top: 1910px;
+
+	font-weight: 500;
+	font-size: 2em;
+	line-height: 40px;
+}
+
+.opcao-Memória-RAM {
+	position: absolute;
+	width: 660px;
+	height: 90px;
+	left: 580px;
+	top: 1890px;
+    padding: 8px;
+}
+
+.Armazenamento-SSD {
+	position: absolute;
+	width: 321px;
+	height: 40px;
+	left: 201px;
+	top: 2180px;
+
+	font-weight: 500;
+	font-size: 2em;
+	line-height: 40px;
+}
+
+.opcao-Armazenamento-SSD {
+	position: absolute;
+	width: 660px;
+	height: 90px;
+	left: 580px;
+	top: 2154px;
+}
+
+.Armazenamento-HDD {
+	position: absolute;
+	width: 330px;
+	height: 40px;
+	left: 200px;
+	top: 2450px;
+
+	font-weight: 500;
+	font-size: 2em;
+	line-height: 40px;
+}
+
+.opcao-Armazenamento-HDD {
+	position: absolute;
+	width: 660px;
+	height: 90px;
+	left: 580px;
+	top: 2424px;
+}
+
+.Sistema-operacional {
+	position: absolute;
+	width: 308px;
+	height: 40px;
+	left: 200px;
+	top: 2720px;
+
+	font-weight: 500;
+	font-size: 2em;
+	line-height: 40px;
+}
+
+.opcao-Sistema-operacional {
+	position: absolute;
+	width: 660px;
+	height: 90px;
+	left: 580px;
+	top: 2694px;
+}
+
+.Monitor{
+	position: absolute;
+	width: 116px;
+	height: 40px;
+	left: 200px;
+	top: 2990px;
+
+	font-weight: 500;
+	font-size: 2em;
+	line-height: 40px;
+}
+
+.opcao-Monitor {
+	position: absolute;
+	width: 660px;
+	height: 90px;
+	left: 580px;
+	top: 2964px;
+}
+
+.Teclado-Mouse {
+	position: absolute;
+	width: 252px;
+	height: 40px;
+	left: 200px;
+	top: 3260px;
+
+	font-weight: 500;
+	font-size: 2em;
+	line-height: 40px;
+}
+
+.opcao-Teclado-Mouse {
+	position: absolute;
+	width: 660px;
+	height: 90px;
+	left: 580px;
+	top: 3234px;
+}
+
+/* A partir daqui é formulario*/
+
+.formulario {
+	position: absolute;
+	width: 1040px;
+	height: 400px;
+	left: -5px;
+	top: 1000px;
 }
 
 .nome-sobrenome {
@@ -490,7 +586,7 @@ button:hover {
 
 #nome-sobrenome {
 	position: absolute;
-	width: 70%;
+	width: 1040px;
 	height: 65px;
 	left: 200px;
 	top: 2557px;
@@ -516,7 +612,7 @@ button:hover {
 
 #email {
 	position: absolute;
-	width: 70%;
+	width: 1040px;
 	height: 65px;
 	left: 200px;
 	top: 2702px;
@@ -542,7 +638,7 @@ button:hover {
 
 #telefone {
 	position: absolute;
-	width: 70%;
+	width: 1040px;
 	height: 65px;
 	left: 200px;
 	top: 2847px;
@@ -554,42 +650,70 @@ button:hover {
 	padding: 0 20px;
 }
 
-.receber {
+.lembrando {
 	position: absolute;
-	width: 30%;
+	width: 983px;
+	height: 30px;
+	left: 250px;
+	top:2950px;
+
+	font-weight: 500;
+	font-size: 1.5em;
+	line-height: 30px;
+}
+
+.gostou {
+	position: absolute;
+	width: 226px;
+	height: 30px;
+	left: 615px;
+	top: 3060px;
+
+	font-weight: 500;
+	font-size: 1.5em;
+	line-height: 30px;
+}
+
+.proposta {
+	position: absolute;
+	width: 40%;
 	height: 67px;
 	left: 527px;
-	top: 2974px;
+	top: 3100px;
 
-	font-weight: 600;
-	font-size: 2em;
-	line-height: 45px;
-
-    font-family: 'Quicksand', sans-serif;
 	border: none;
 	background: #7115F2;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-	border-radius: 30px;
+	border-radius: 25px;
+	font-weight: 600;
+	font-size: 2em;
+	line-height: 38px;
 	color: white;
-    text-transform: uppercase;
-    transition: 1s ; 
+	text-transform: uppercase;
+    transition: 1s all;
 }
 
-.receber:hover {
-    background: #3B0B7D;
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+.proposta:hover {
 	cursor: pointer;
-
-    transform:scale(1.08)
+    transform: scale(1.1);
+    background: #3B0B7D;
 }
 
 /*rodapé*/
+.rodape {
+	position: absolute;
+	width: 100%;
+	height: auto;
+	left: 0px;
+	top: 4200px;
+}
+
 .fundo-rodape {
 	position: absolute;
 	width: 100%;
 	height: auto;
 	left: 0px;
-	top: 3169px;
+	top: 4270px;
 }
 
 .logo-branco {
@@ -597,7 +721,7 @@ button:hover {
 	width: 34%;
 	height: auto;
 	left: 0px;
-	top: 3100px;
+	top: 4200px;
 }
 
 .atendimento {
@@ -605,7 +729,7 @@ button:hover {
 	width: 34%;
 	height: auto;
 	left: 60%;
-	top: 3250px;
+	top: 4350px;
 
 	font-weight: bold;
 	font-size: 1.5em;
@@ -619,7 +743,7 @@ button:hover {
 	width: 427px;
 	height: 23px;
 	left: 66%;
-	top: 3280px;
+	top: 4380px;
 
 	font-weight: 600;
 	font-size: 1.3em;
@@ -633,7 +757,7 @@ button:hover {
 	width: 30%;
 	height: auto;
 	left: 40%;
-	top: 3400px;
+	top: 4500px;
 
 	font-weight: 700;
 	font-size: 2.5em;
@@ -647,7 +771,7 @@ button:hover {
 	width: 90px;
 	height: 90px;
 	left: 21%;
-	top: 3470px;
+	top: 4570px;
 	transform: matrix(-1, 0, 0, 1, 0, 0);
 	border-radius: 100%;
 }
@@ -657,7 +781,7 @@ button:hover {
 	width: 14.5%;
 	height: auto;
 	left: 18%;
-	top: 3590px;
+	top: 4690px;
 
 	font-weight: 500;
 	font-size: 1.2em;
@@ -670,7 +794,7 @@ button:hover {
 	width: 18.4%;
 	height: auto;
 	left: 14%;
-	top: 3625px;
+	top: 4725px;
 
 	font-weight: 300;
 	font-size: 1em;
@@ -685,7 +809,7 @@ button:hover {
 	width: 10.4%;
 	height: auto;
 	left: 18.5%;
-	top: 3650px;
+	top: 4750px;
 
 	font-weight: 300;
 	font-size: 1em;
@@ -700,7 +824,7 @@ button:hover {
 	width: 90px;
 	height: 90px;
 	left: 45%;
-	top: 3470px;
+	top: 4570px;
 	transform: matrix(-1, 0, 0, 1, 0, 0);
 	border-radius: 100%;
 }
@@ -710,7 +834,7 @@ button:hover {
 	width: 14.5%;
 	height: auto;
 	left: 44%;
-	top: 3590px;
+	top: 4690px;
 
 	font-weight: 500;
 	font-size: 1.2em;
@@ -723,7 +847,7 @@ button:hover {
 	width: 18.4%;
 	height: auto;
 	left: 39%;
-	top: 3625px;
+	top: 4725px;
 
 	font-weight: 300;
 	font-size: 1em;
@@ -738,7 +862,7 @@ button:hover {
 	width: 10.4%;
 	height: auto;
 	left: 43%;
-	top: 3650px;
+	top: 4750px;
 
 	font-weight: 300;
 	font-size: 1em;
@@ -753,7 +877,7 @@ button:hover {
 	width: 90px;
 	height: 90px;
 	left: 33%;
-	top: 3719px;
+	top: 4819px;
 	transform: matrix(-1, 0, 0, 1, 0, 0);
 	border-radius: 100%;
 }
@@ -763,7 +887,7 @@ button:hover {
 	width: 14.5%;
 	height: auto;
 	left: 30%;
-	top: 3820px;
+	top: 4920px;
 
 	font-weight: 500;
 	font-size: 1.2em;
@@ -776,7 +900,7 @@ button:hover {
 	width: 18.4%;
 	height: auto;
 	left: 26.4%;
-	top: 3855px;
+	top: 4955px;
 
 	font-weight: 300;
 	font-size: 1em;
@@ -791,7 +915,7 @@ button:hover {
 	width: 10.4%;
 	height: auto;
 	left: 30.8%;
-	top: 3880px;
+	top: 4980px;
 
 	font-weight: 300;
 	font-size: 1em;
@@ -806,7 +930,7 @@ button:hover {
 	width: 90px;
 	height: 90px;
 	left: 70%;
-	top: 3470px;
+	top: 4570px;
 	transform: matrix(-1, 0, 0, 1, 0, 0);
 	border-radius: 100%;
 }
@@ -816,7 +940,7 @@ button:hover {
 	width: 14.5%;
 	height: auto;
 	left: 69.2%;
-	top: 3590px;
+	top: 4690px;
 
 	font-weight: 500;
 	font-size: 1.2em;
@@ -829,7 +953,7 @@ button:hover {
 	width: 18.4%;
 	height: auto;
 	left: 64%;
-	top: 3625px;
+	top: 4725px;
 
 	font-weight: 300;
 	font-size: 1em;
@@ -844,7 +968,7 @@ button:hover {
 	width: 90px;
 	height: 90px;
 	left: 58%;
-	top: 3719px;
+	top: 4819px;
 	transform: matrix(-1, 0, 0, 1, 0, 0);
 	border-radius: 100%;
 }
@@ -854,7 +978,7 @@ button:hover {
 	width: 14.5%;
 	height: auto;
 	left: 57.4%;
-	top: 3820px;
+	top: 4920px;
 
 	font-weight: 500;
 	font-size: 1.2em;
@@ -867,7 +991,7 @@ button:hover {
 	width: 18.4%;
 	height: auto;
 	left: 51.5%;
-	top: 3855px;
+	top: 4955px;
 
 	font-weight: 300;
 	font-size: 1em;
@@ -893,7 +1017,7 @@ button:hover {
 	width: 30%;
 	height: auto;
 	left: 15.3%;
-	top: 4045px;
+	top: 5145px;
 
 	font-weight: 600;
 	font-size: 1.2em;
@@ -906,7 +1030,7 @@ button:hover {
 	width: 59%;
 	height: auto;
 	left: 27%;
-	top: 4047px;
+	top: 5147px;
 
 	font-weight: 400;
 	font-size: 1.1em;
